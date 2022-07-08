@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/ic_splash_background"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:minHeight="500dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Rulestitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:fontFamily="@font/fffforward"
+            android:textStyle="bold"
+            android:text="Rules" />
+        <TextView
+            android:id="@+id/rulesdescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"
+            android:textColor="#000"
+            android:text="@string/rulesdescription" />
+
+
+
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/gohome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fffforward"
+            android:layout_marginTop="100dp"
+            android:background="@color/MaterialBlack"
+            android:textColor="#fff"
+            android:text="Go Home" />
+
+    </LinearLayout>
+</LinearLayout>

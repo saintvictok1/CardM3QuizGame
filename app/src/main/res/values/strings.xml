@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Kernopedia</string>
+    <string name="welcome">Welcome</string>
+    <string name="welcomeback">Welcome back &#160; </string>
+    <string name="newplayer">Welcome New Player!</string>
+    <string name="welcomeregistrationmsg">Lets get started! Fill the form to continue.</string>
+    <string name="login_initial">Register to continue.</string>
+    <string name="login_return">Login or Register to continue.</string>
+    <string name="register">Game Registration</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="username">User Name</string>
+    <string name="password">Password</string>
+    <string name="email">E-Mail</string>
+    <string name="rightanswers">Right Answers: &#160;</string>
+    <string name="rulesdescription"> 1. For Single answer questions, select 1 answer and submit.
+                                    \n\n 2. For Multiple choice questions, select the appropriate answers, then submit answer.
+                                    \n\n 3. At the end of the quiz, score will be given and attempt will be recorded in Quiz history.
+                                    \n\n 4. Good luck! </string>
+
+
+</resources>
